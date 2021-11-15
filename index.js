@@ -2,8 +2,12 @@
 // function findLongestWord(words){
 //  let longestWord = ""
 //  for (let i = 0; i < words.length; i++){
-//      if (longestWord)
-//  }
+//      let word = words[i]
+// if(word[i].length > longestWord.length){
+// longestWord = words[i]
+// // }
+// //  }
+// return longestWord
 // }
 const findLongestWord = (words) => {
     let longestWord = ""
@@ -15,4 +19,4 @@ const findLongestWord = (words) => {
     return longestWord
 }
 
-console.log(findLongestWord(['OhGod', 'damnnnnnnn', 'jeezzzusss', 'ball', 'cooon']))
+console.log(findLongestWord(['OhGod', 'Linden Blvd', 'Jamaica Queens New York', 'christt', 'flatbush']))
